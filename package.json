@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-cloudrun",
+  "version": "1.0.0",
+  "description": "Backend-focused portfolio deployed on Google Cloud Run",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/virgiliusnanamanek02/portfolio-cloudrun.git"
+  },
+  "keywords": [
+    "portfolio",
+    "backend",
+    "cloud-run",
+    "google-ai"
+  ],
+  "author": "Virgilius Nana Manek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virgiliusnanamanek02/portfolio-cloudrun/issues"
+  },
+  "homepage": "https://github.com/virgiliusnanamanek02/portfolio-cloudrun#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
