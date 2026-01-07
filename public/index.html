@@ -34,16 +34,19 @@
                     Ask
                 </button>
 
-                <pre
+                <p id="loading" class="text-sm text-gray-500 mt-2 hidden">
+                    Thinking…
+                </p>
+
+                <div
                     id="answer"
-                    class="mt-4 bg-gray-100 p-4 rounded-md text-sm whitespace-pre-wrap"
+                    class="mt-4 bg-gray-100 border border-gray-200 rounded-md p-4 text-sm text-gray-800 prose prose-sm max-w-none"
                 >
-AI response will appear here.
-      </pre
-                >
+                    AI response will appear here.
+                </div>
             </section>
         </main>
-
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="app.js"></script>
     </body>
 </html>
