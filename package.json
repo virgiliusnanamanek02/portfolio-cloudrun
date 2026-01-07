@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Backend-focused portfolio deployed on Google Cloud Run",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -24,6 +25,8 @@
   },
   "homepage": "https://github.com/virgiliusnanamanek02/portfolio-cloudrun#readme",
   "dependencies": {
+    "@google/genai": "^1.34.0",
+    "dotenv": "^17.2.3",
     "express": "^5.2.1"
   }
 }
